@@ -1,6 +1,5 @@
 ```
-docker login
-docker build -t docker-python-kubectl .
-docker tag docker-python-kubectl:latest laughlamz/docker-python-kubectl:latest
-docker push laughlamz/docker-python-kubectl:latest
+docker build -t gin-emqx-datadog .
+docker tag gin-emqx-datadog:latest laughlamz/emqx-datadog:latest
+docker push laughlamz/emqx-datadog:latest
 ```
